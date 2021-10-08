@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    width: auto;
+    display: flex;
+}
+
+.dojo_left {
+    height: 30%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.dojo_left div {
+    display: flex;
+}
+.dojo_left form {
+    width: 60%;
+    display: flex; 
+    justify-content: space-evenly;
+}
+.dojo_left form .button {
+    width: 20%;
+}
+.dojo_right {
+    height: 65%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dojo_right .places {
+    height: 50%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 2%;
+}
+
+.box {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2% 0 0 10%;
+    padding: 1%;
+}
+.ninja_body {
+    display: flex;
+    flex-direction: column;
+}
+.ninja_body form .button {
+    width: 6%;
+}
+
+.city_box {
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2% 0 0 35%;
+    padding: 1%;
+}
+.city_body {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.city_body table {
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+tr, th, td {
+    border: 2px solid black;
+    padding: 1%;
+}
