@@ -15,9 +15,9 @@
         <div class=ninja_body>
             <form action='/create/ninjas' method='post'>
                 <label for='dojo_id'>Dojo Location:</label>
-                    <select name='dojo_id'>
-                        {% for d in dojos %}
-                        <option value='{{ d.id }}'>{{ d.name }}</option>
+                    <select name='dojo_id'> <!--Why did I have to name it 'dojo_id'?-->
+                        {% for ojo in dojos %}
+                        <option value='{{ ojo.id }}'>{{ ojo.name }}</option>
                         {% endfor %}
                     </select>
                 <label for='first_name'>First Name:</label>

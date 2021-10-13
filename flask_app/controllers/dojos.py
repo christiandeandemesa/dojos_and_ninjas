@@ -12,10 +12,6 @@ def dojo_page():
 
 @app.route('/create/dojos', methods=['post'])
 def create_dojo():
-    #data = {
-    #    'name': request.form['name']
-    #    }
-    #Dojo.create(data)
     Dojo.create(request.form)
     return redirect('/dojos')
 
